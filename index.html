@@ -1,0 +1,1777 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="LingoBridge is an AI-powered multilingual translation platform. Translate text and speech across Indian and international languages.">
+
+    <meta name="keywords"
+        content="LingoBridge, language translator, AI translation, voice translator, multilingual translation">
+
+    <meta name="author" content="LingoBridge">
+
+    <title>LingoBridge - Break Language Barriers</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- ================= NAVIGATION BAR ================= -->
+
+    <header class="header" id="header">
+
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">
+                <span class="logo-icon">
+                    <i class="fa-solid fa-language"></i>
+                </span>
+
+                <span>Lingo<span class="logo-highlight">Bridge</span></span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation menu"
+                aria-expanded="false">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+
+                <li>
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+
+                <li>
+                    <a href="#translator" class="nav-link">Translator</a>
+                </li>
+
+                <li>
+                    <a href="#voice" class="nav-link">Voice</a>
+                </li>
+
+                <li>
+                    <a href="#languages" class="nav-link">Languages</a>
+                </li>
+
+                <li>
+                    <a href="#history" class="nav-link">History</a>
+                </li>
+
+                <li>
+                    <a href="#favorites" class="nav-link">Favorites</a>
+                </li>
+
+                <li>
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+
+                <li>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+
+            </ul>
+
+            <div class="nav-actions">
+
+                <button class="theme-toggle" id="themeToggle"
+                    aria-label="Toggle dark mode"
+                    title="Change theme">
+
+                    <i class="fa-solid fa-moon"></i>
+
+                </button>
+
+                <a href="#translator" class="nav-cta">
+                    Start Translating
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= MAIN CONTENT ================= -->
+
+    <main>
+
+
+        <!-- ================= HOME SECTION ================= -->
+
+        <section class="hero section" id="home">
+
+            <div class="hero-background"></div>
+
+            <div class="container hero-container">
+
+                <div class="hero-content">
+
+                    <span class="hero-badge">
+                        <i class="fa-solid fa-sparkles"></i>
+                        AI-Powered Language Translation
+                    </span>
+
+                    <h1>
+                        Break Language Barriers.
+                        <span>Connect the World.</span>
+                    </h1>
+
+                    <p class="hero-description">
+
+                        Communicate without boundaries with LingoBridge.
+                        Translate languages, understand different cultures
+                        and connect with people around the world.
+
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#translator" class="btn btn-primary">
+
+                            Start Translating
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </a>
+
+                        <a href="#about" class="btn btn-secondary">
+
+                            Discover More
+
+                            <i class="fa-solid fa-circle-play"></i>
+
+                        </a>
+
+                    </div>
+
+                    <div class="hero-stats">
+
+                        <div class="stat-item">
+
+                            <h3>22+</h3>
+
+                            <p>Languages</p>
+
+                        </div>
+
+                        <div class="stat-divider"></div>
+
+                        <div class="stat-item">
+
+                            <h3>AI</h3>
+
+                            <p>Powered Translation</p>
+
+                        </div>
+
+                        <div class="stat-divider"></div>
+
+                        <div class="stat-item">
+
+                            <h3>24/7</h3>
+
+                            <p>Accessibility</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-visual">
+
+                    <div class="floating-card floating-card-top">
+
+                        <i class="fa-solid fa-globe"></i>
+
+                        <span>Global Communication</span>
+
+                    </div>
+
+                    <div class="translation-preview">
+
+                        <div class="preview-header">
+
+                            <span>
+                                <i class="fa-solid fa-language"></i>
+                                Live Translation
+                            </span>
+
+                            <span class="online-indicator">
+                                <span></span>
+                                Ready
+                            </span>
+
+                        </div>
+
+                        <div class="preview-language">
+
+                            <div class="preview-language-item">
+
+                                <span class="language-symbol">🇬🇧</span>
+
+                                <div>
+                                    <small>From</small>
+                                    <h4>English</h4>
+                                </div>
+
+                            </div>
+
+                            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+
+                            <div class="preview-language-item">
+
+                                <span class="language-symbol">🇮🇳</span>
+
+                                <div>
+                                    <small>To</small>
+                                    <h4>Hindi</h4>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="preview-text">
+
+                            <small>Hello, how are you?</small>
+
+                            <div class="preview-divider"></div>
+
+                            <h3>नमस्ते, आप कैसे हैं?</h3>
+
+                        </div>
+
+                        <div class="preview-footer">
+
+                            <span>
+                                <i class="fa-solid fa-check-circle"></i>
+                                Translation preview
+                            </span>
+
+                            <i class="fa-solid fa-volume-high"></i>
+
+                        </div>
+
+                    </div>
+
+                    <div class="floating-card floating-card-bottom">
+
+                        <i class="fa-solid fa-microphone"></i>
+
+                        <span>Voice Translation</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURES SECTION ================= -->
+
+        <section class="features section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-tag">OUR FEATURES</span>
+
+                    <h2>
+                        Communication Made
+                        <span>Simple</span>
+                    </h2>
+
+                    <p>
+                        Everything you need to communicate across languages
+                        in one powerful platform.
+                    </p>
+
+                </div>
+
+
+                <div class="features-grid">
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon blue-icon">
+                            <i class="fa-solid fa-language"></i>
+                        </div>
+
+                        <h3>Text Translation</h3>
+
+                        <p>
+                            Translate written text between multiple
+                            Indian and international languages.
+                        </p>
+
+                    </article>
+
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon purple-icon">
+                            <i class="fa-solid fa-microphone-lines"></i>
+                        </div>
+
+                        <h3>Voice Translation</h3>
+
+                        <p>
+                            Speak naturally and convert your speech
+                            into another language.
+                        </p>
+
+                    </article>
+
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon green-icon">
+                            <i class="fa-solid fa-volume-high"></i>
+                        </div>
+
+                        <h3>Text to Speech</h3>
+
+                        <p>
+                            Listen to translated sentences with
+                            supported speech voices.
+                        </p>
+
+                    </article>
+
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon orange-icon">
+                            <i class="fa-solid fa-clock-rotate-left"></i>
+                        </div>
+
+                        <h3>Translation History</h3>
+
+                        <p>
+                            Access your previous translations
+                            whenever you need them.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= TEXT TRANSLATOR ================= -->
+
+        <section class="translator-section section" id="translator">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-tag">TRANSLATE ANYTHING</span>
+
+                    <h2>
+                        Your Personal
+                        <span>Language Translator</span>
+                    </h2>
+
+                    <p>
+                        Enter your text, choose your languages
+                        and translate instantly.
+                    </p>
+
+                </div>
+
+
+                <div class="translator-card">
+
+                    <!-- Language Selection -->
+
+                    <div class="language-toolbar">
+
+                        <div class="language-select-group">
+
+                            <label for="sourceLanguage">
+                                Translate From
+                            </label>
+
+                            <select id="sourceLanguage"
+                                class="language-select">
+
+                                <option value="auto">
+                                    Detect Language
+                                </option>
+
+                                <optgroup label="Indian Languages">
+
+                                    <option value="en">English</option>
+                                    <option value="hi">Hindi</option>
+                                    <option value="kn">Kannada</option>
+                                    <option value="te">Telugu</option>
+                                    <option value="ta">Tamil</option>
+                                    <option value="ml">Malayalam</option>
+                                    <option value="mr">Marathi</option>
+                                    <option value="bn">Bengali</option>
+                                    <option value="gu">Gujarati</option>
+                                    <option value="pa">Punjabi</option>
+                                    <option value="ur">Urdu</option>
+                                    <option value="or">Odia</option>
+
+                                </optgroup>
+
+                                <optgroup label="International Languages">
+
+                                    <option value="es">Spanish</option>
+                                    <option value="fr">French</option>
+                                    <option value="de">German</option>
+                                    <option value="zh">Chinese</option>
+                                    <option value="ja">Japanese</option>
+                                    <option value="ko">Korean</option>
+                                    <option value="ar">Arabic</option>
+                                    <option value="ru">Russian</option>
+                                    <option value="pt">Portuguese</option>
+                                    <option value="it">Italian</option>
+
+                                </optgroup>
+
+                            </select>
+
+                        </div>
+
+
+                        <button class="swap-button" id="swapLanguages"
+                            aria-label="Swap languages"
+                            title="Swap languages">
+
+                            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+
+                        </button>
+
+
+                        <div class="language-select-group">
+
+                            <label for="targetLanguage">
+                                Translate To
+                            </label>
+
+                            <select id="targetLanguage"
+                                class="language-select">
+
+                                <optgroup label="Indian Languages">
+
+                                    <option value="en">English</option>
+                                    <option value="hi" selected>Hindi</option>
+                                    <option value="kn">Kannada</option>
+                                    <option value="te">Telugu</option>
+                                    <option value="ta">Tamil</option>
+                                    <option value="ml">Malayalam</option>
+                                    <option value="mr">Marathi</option>
+                                    <option value="bn">Bengali</option>
+                                    <option value="gu">Gujarati</option>
+                                    <option value="pa">Punjabi</option>
+                                    <option value="ur">Urdu</option>
+                                    <option value="or">Odia</option>
+
+                                </optgroup>
+
+                                <optgroup label="International Languages">
+
+                                    <option value="es">Spanish</option>
+                                    <option value="fr">French</option>
+                                    <option value="de">German</option>
+                                    <option value="zh">Chinese</option>
+                                    <option value="ja">Japanese</option>
+                                    <option value="ko">Korean</option>
+                                    <option value="ar">Arabic</option>
+                                    <option value="ru">Russian</option>
+                                    <option value="pt">Portuguese</option>
+                                    <option value="it">Italian</option>
+
+                                </optgroup>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Translation Input and Output -->
+
+                    <div class="translation-workspace">
+
+
+                        <!-- Source Text -->
+
+                        <div class="translation-panel">
+
+                            <div class="panel-header">
+
+                                <h3>
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                    Your Text
+                                </h3>
+
+                                <span id="sourceCharacterCount">
+                                    0 / 5000
+                                </span>
+
+                            </div>
+
+
+                            <textarea id="sourceText"
+                                placeholder="Enter text here to translate..."
+                                maxlength="5000"
+                                aria-label="Text to translate"></textarea>
+
+
+                            <div class="panel-footer">
+
+                                <button class="icon-button" id="clearText"
+                                    title="Clear text"
+                                    aria-label="Clear text">
+
+                                    <i class="fa-solid fa-trash"></i>
+
+                                </button>
+
+                                <button class="icon-button" id="sourceSpeak"
+                                    title="Listen to source text"
+                                    aria-label="Listen to source text">
+
+                                    <i class="fa-solid fa-volume-high"></i>
+
+                                </button>
+
+                                <span class="panel-footer-spacer"></span>
+
+                                <span class="panel-hint">
+                                    <i class="fa-solid fa-keyboard"></i>
+                                    Type or paste text
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Translated Text -->
+
+                        <div class="translation-panel output-panel">
+
+                            <div class="panel-header">
+
+                                <h3>
+                                    <i class="fa-solid fa-language"></i>
+                                    Translation
+                                </h3>
+
+                                <span id="translationStatus">
+                                    Waiting for text
+                                </span>
+
+                            </div>
+
+
+                            <div id="translatedText"
+                                class="translated-text"
+                                aria-live="polite">
+
+                                <span class="output-placeholder">
+                                    Your translated text will
+                                    appear here...
+                                </span>
+
+                            </div>
+
+
+                            <div class="panel-footer">
+
+                                <button class="icon-button" id="copyTranslation"
+                                    title="Copy translation"
+                                    aria-label="Copy translation">
+
+                                    <i class="fa-solid fa-copy"></i>
+
+                                </button>
+
+                                <button class="icon-button" id="speakTranslation"
+                                    title="Listen to translation"
+                                    aria-label="Listen to translation">
+
+                                    <i class="fa-solid fa-volume-high"></i>
+
+                                </button>
+
+                                <button class="icon-button" id="favoriteTranslation"
+                                    title="Add to favorites"
+                                    aria-label="Add to favorites">
+
+                                    <i class="fa-regular fa-heart"></i>
+
+                                </button>
+
+                                <span class="panel-footer-spacer"></span>
+
+                                <span class="panel-hint">
+                                    <i class="fa-solid fa-check-circle"></i>
+                                    Translation output
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Translation Buttons -->
+
+                    <div class="translator-actions">
+
+                        <button class="btn btn-primary translate-button"
+                            id="translateButton">
+
+                            <i class="fa-solid fa-wand-magic-sparkles"></i>
+
+                            Translate Now
+
+                        </button>
+
+                        <button class="btn btn-secondary"
+                            id="resetTranslator">
+
+                            <i class="fa-solid fa-rotate-left"></i>
+
+                            Reset
+
+                        </button>
+
+                    </div>
+
+
+                    <!-- Error and Message Display -->
+
+                    <div class="message-area" id="translationMessage"
+                        role="status" aria-live="polite"></div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= VOICE TRANSLATOR ================= -->
+
+        <section class="voice-section section" id="voice">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-tag">SPEAK AND TRANSLATE</span>
+
+                    <h2>
+                        Your Voice,
+                        <span>Any Language</span>
+                    </h2>
+
+                    <p>
+                        Speak in your language and let LingoBridge
+                        help you communicate.
+                    </p>
+
+                </div>
+
+
+                <div class="voice-card">
+
+                    <div class="voice-language-select">
+
+                        <div class="language-select-group">
+
+                            <label for="voiceSourceLanguage">
+                                Speak In
+                            </label>
+
+                            <select id="voiceSourceLanguage"
+                                class="language-select">
+
+                                <option value="en-US">English</option>
+                                <option value="hi-IN">Hindi</option>
+                                <option value="kn-IN">Kannada</option>
+                                <option value="te-IN">Telugu</option>
+                                <option value="ta-IN">Tamil</option>
+                                <option value="ml-IN">Malayalam</option>
+                                <option value="mr-IN">Marathi</option>
+                                <option value="bn-IN">Bengali</option>
+                                <option value="gu-IN">Gujarati</option>
+                                <option value="pa-IN">Punjabi</option>
+                                <option value="ur-IN">Urdu</option>
+                                <option value="or-IN">Odia</option>
+                                <option value="es-ES">Spanish</option>
+                                <option value="fr-FR">French</option>
+                                <option value="de-DE">German</option>
+                                <option value="zh-CN">Chinese</option>
+                                <option value="ja-JP">Japanese</option>
+                                <option value="ko-KR">Korean</option>
+                                <option value="ar-SA">Arabic</option>
+                                <option value="ru-RU">Russian</option>
+                                <option value="pt-PT">Portuguese</option>
+                                <option value="it-IT">Italian</option>
+
+                            </select>
+
+                        </div>
+
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+
+                        <div class="language-select-group">
+
+                            <label for="voiceTargetLanguage">
+                                Translate To
+                            </label>
+
+                            <select id="voiceTargetLanguage"
+                                class="language-select">
+
+                                <option value="en">English</option>
+                                <option value="hi" selected>Hindi</option>
+                                <option value="kn">Kannada</option>
+                                <option value="te">Telugu</option>
+                                <option value="ta">Tamil</option>
+                                <option value="ml">Malayalam</option>
+                                <option value="mr">Marathi</option>
+                                <option value="bn">Bengali</option>
+                                <option value="gu">Gujarati</option>
+                                <option value="pa">Punjabi</option>
+                                <option value="ur">Urdu</option>
+                                <option value="or">Odia</option>
+                                <option value="es">Spanish</option>
+                                <option value="fr">French</option>
+                                <option value="de">German</option>
+                                <option value="zh">Chinese</option>
+                                <option value="ja">Japanese</option>
+                                <option value="ko">Korean</option>
+                                <option value="ar">Arabic</option>
+                                <option value="ru">Russian</option>
+                                <option value="pt">Portuguese</option>
+                                <option value="it">Italian</option>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="voice-animation" id="voiceAnimation">
+
+                        <div class="voice-circle">
+
+                            <i class="fa-solid fa-microphone"></i>
+
+                        </div>
+
+                    </div>
+
+
+                    <h3 id="voiceStatus">
+                        Ready to Listen
+                    </h3>
+
+                    <p class="voice-description">
+                        Press the microphone button and start speaking.
+                    </p>
+
+
+                    <div class="voice-buttons">
+
+                        <button class="btn btn-primary"
+                            id="startRecording">
+
+                            <i class="fa-solid fa-microphone"></i>
+
+                            Start Recording
+
+                        </button>
+
+                        <button class="btn btn-secondary"
+                            id="stopRecording" disabled>
+
+                            <i class="fa-solid fa-stop"></i>
+
+                            Stop Recording
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="voice-result-grid">
+
+                        <div class="voice-result-box">
+
+                            <h4>
+                                <i class="fa-solid fa-comment"></i>
+                                Recognized Speech
+                            </h4>
+
+                            <div id="recognizedText"
+                                class="voice-result-text"
+                                aria-live="polite">
+
+                                Your recognized speech will appear here.
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="voice-result-box">
+
+                            <h4>
+                                <i class="fa-solid fa-language"></i>
+                                Translated Speech
+                            </h4>
+
+                            <div id="voiceTranslatedText"
+                                class="voice-result-text"
+                                aria-live="polite">
+
+                                Your translated speech will appear here.
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="voice-result-actions">
+
+                        <button class="btn btn-primary"
+                            id="translateVoiceText">
+
+                            <i class="fa-solid fa-language"></i>
+
+                            Translate Speech
+
+                        </button>
+
+                        <button class="btn btn-secondary"
+                            id="speakVoiceTranslation">
+
+                            <i class="fa-solid fa-volume-high"></i>
+
+                            Listen
+
+                        </button>
+
+                    </div>
+
+
+                    <div id="voiceMessage" class="message-area"
+                        role="status" aria-live="polite"></div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SUPPORTED LANGUAGES ================= -->
+
+        <section class="languages-section section" id="languages">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-tag">EXPLORE LANGUAGES</span>
+
+                    <h2>
+                        Connect Across
+                        <span>Different Languages</span>
+                    </h2>
+
+                    <p>
+                        Explore Indian and international languages
+                        supported by LingoBridge.
+                    </p>
+
+                </div>
+
+
+                <div class="language-search">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                    <input type="text"
+                        id="languageSearch"
+                        placeholder="Search for a language..."
+                        aria-label="Search supported languages">
+
+                </div>
+
+
+                <div class="language-grid" id="languageGrid">
+
+
+                    <div class="language-card" data-language="English">
+
+                        <span class="language-flag">🇬🇧</span>
+
+                        <div>
+                            <h3>English</h3>
+                            <p>English</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="language-card" data-language="Hindi">
+
+                        <span class="language-flag">🇮🇳</span>
+
+                        <div>
+                            <h3>Hindi</h3>
+                            <p>हिन्दी</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="language-card" data-language="Kannada">
+
+                        <span class="language-flag">🇮🇳</span>
+
+                        <div>
+                            <h3>Kannada</h3>
+                            <p>ಕನ್ನಡ</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="language-card" data-language="Telugu">
+
+                        <span class="language-flag">🇮🇳</span>
+
+                        <div>
+                            <h3>Telugu</h3>
+                            <p>తెలుగు</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="language-card" data-language="Tamil">
+
+                        <span class="language-flag">🇮🇳</span>
+
+                        <div>
+                            <h3>Tamil</h3>
+                            <p>தமிழ்</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="language-card" data-language="Malayalam">
+
+                        <span class="language-flag">🇮🇳</span>
+
+                        <div>
+                            <h3>Malayalam</h3>
+                            <p>മലയാളം</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="language-card" data-language="Marathi">
+
+                        <span class="language-flag">🇮🇳</span>
+
+                        <div>
+                            <h3>Marathi</h3>
+                            <p>मराठी</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="language-card" data-language="Bengali">
+
+                        <span class="language-flag">🇮🇳</span>
+
+                        <div>
+                            <h3>Bengali</h3>
+                            <p>বাংলা</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="language-card" data-language="Gujarati">
+
+                        <span class="language-flag">🇮🇳</span>
+
+                        <div>
+                            <h3>Gujarati</h3>
+                            <p>ગુજરાતી</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="language-card" data-language="Punjabi">
+
+                        <span class="language-flag">🇮🇳</span>
+
+                        <div>
+                            <h3>Punjabi</h3>
+                            <p>ਪੰਜਾਬੀ</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="language-card" data-language="Urdu">
+
+                        <span class="language-flag">🇮🇳</span>
+
+                        <div>
+                            <h3>Urdu</h3>
+                            <p>اردو</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="language-card" data-language="Odia">
+
+                        <span class="language-flag">🇮🇳</span>
+
+                        <div>
+                            <h3>Odia</h3>
+                            <p>ଓଡ଼ିଆ</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="language-card" data-language="Spanish">
+
+                        <span class="language-flag">🇪🇸</span>
+
+                        <div>
+                            <h3>Spanish</h3>
+                            <p>Español</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="language-card" data-language="French">
+
+                        <span class="language-flag">🇫🇷</span>
+
+                        <div>
+                            <h3>French</h3>
+                            <p>Français</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="language-card" data-language="German">
+
+                        <span class="language-flag">🇩🇪</span>
+
+                        <div>
+                            <h3>German</h3>
+                            <p>Deutsch</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="language-card" data-language="Chinese">
+
+                        <span class="language-flag">🇨🇳</span>
+
+                        <div>
+                            <h3>Chinese</h3>
+                            <p>中文</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="language-card" data-language="Japanese">
+
+                        <span class="language-flag">🇯🇵</span>
+
+                        <div>
+                            <h3>Japanese</h3>
+                            <p>日本語</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="language-card" data-language="Korean">
+
+                        <span class="language-flag">🇰🇷</span>
+
+                        <div>
+                            <h3>Korean</h3>
+                            <p>한국어</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="language-card" data-language="Arabic">
+
+                        <span class="language-flag">🇸🇦</span>
+
+                        <div>
+                            <h3>Arabic</h3>
+                            <p>العربية</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="language-card" data-language="Russian">
+
+                        <span class="language-flag">🇷🇺</span>
+
+                        <div>
+                            <h3>Russian</h3>
+                            <p>Русский</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="language-card" data-language="Portuguese">
+
+                        <span class="language-flag">🇵🇹</span>
+
+                        <div>
+                            <h3>Portuguese</h3>
+                            <p>Português</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="language-card" data-language="Italian">
+
+                        <span class="language-flag">🇮🇹</span>
+
+                        <div>
+                            <h3>Italian</h3>
+                            <p>Italiano</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <p class="language-search-empty" id="languageSearchEmpty"
+                    hidden>
+
+                    No matching language found.
+
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= TRANSLATION HISTORY ================= -->
+
+        <section class="history-section section" id="history">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-tag">YOUR TRANSLATIONS</span>
+
+                    <h2>
+                        Translation
+                        <span>History</span>
+                    </h2>
+
+                    <p>
+                        Find your previous translations in one place.
+                    </p>
+
+                </div>
+
+
+                <div class="history-card">
+
+                    <div class="history-header">
+
+                        <div>
+
+                            <h3>
+                                <i class="fa-solid fa-clock-rotate-left"></i>
+                                Recent Translations
+                            </h3>
+
+                            <p>Access your saved translation activity.</p>
+
+                        </div>
+
+                        <button class="btn btn-secondary"
+                            id="clearHistory">
+
+                            <i class="fa-solid fa-trash"></i>
+
+                            Clear History
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="history-list" id="historyList">
+
+                        <div class="empty-state">
+
+                            <i class="fa-solid fa-clock"></i>
+
+                            <h3>No Translation History</h3>
+
+                            <p>
+                                Your previous translations will
+                                appear here.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FAVORITES ================= -->
+
+        <section class="favorites-section section" id="favorites">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-tag">YOUR COLLECTION</span>
+
+                    <h2>
+                        Your Favorite
+                        <span>Translations</span>
+                    </h2>
+
+                    <p>
+                        Keep important translations ready
+                        whenever you need them.
+                    </p>
+
+                </div>
+
+
+                <div class="favorites-card">
+
+                    <div class="favorites-header">
+
+                        <h3>
+                            <i class="fa-solid fa-heart"></i>
+                            Saved Translations
+                        </h3>
+
+                        <span id="favoriteCount">
+                            0 Favorites
+                        </span>
+
+                    </div>
+
+
+                    <div class="favorites-list" id="favoritesList">
+
+                        <div class="empty-state">
+
+                            <i class="fa-regular fa-heart"></i>
+
+                            <h3>No Favorite Translations</h3>
+
+                            <p>
+                                Save your important translations
+                                using the heart button.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT US ================= -->
+
+        <section class="about-section section" id="about">
+
+            <div class="container about-container">
+
+                <div class="about-content">
+
+                    <span class="section-tag">ABOUT LINGOBRIDGE</span>
+
+                    <h2>
+                        Bringing the World
+                        <span>Closer Together</span>
+                    </h2>
+
+                    <p>
+
+                        LingoBridge is designed to make communication
+                        easier by reducing language barriers.
+
+                        Our platform brings together modern web
+                        technologies, translation services and
+                        speech recognition to create an accessible
+                        multilingual experience.
+
+                    </p>
+
+                    <p>
+
+                        Whether you are a student, traveller,
+                        professional or language learner,
+                        LingoBridge helps you communicate with
+                        confidence.
+
+                    </p>
+
+
+                    <div class="about-highlights">
+
+                        <div>
+
+                            <i class="fa-solid fa-check-circle"></i>
+
+                            Easy to Use
+
+                        </div>
+
+                        <div>
+
+                            <i class="fa-solid fa-check-circle"></i>
+
+                            Multilingual Support
+
+                        </div>
+
+                        <div>
+
+                            <i class="fa-solid fa-check-circle"></i>
+
+                            Voice Communication
+
+                        </div>
+
+                        <div>
+
+                            <i class="fa-solid fa-check-circle"></i>
+
+                            User-Friendly Interface
+
+                        </div>
+
+                    </div>
+
+
+                    <a href="#translator" class="btn btn-primary">
+
+                        Try LingoBridge
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+
+                <div class="about-visual">
+
+                    <div class="about-icon-circle">
+
+                        <i class="fa-solid fa-earth-americas"></i>
+
+                    </div>
+
+                    <div class="about-floating about-floating-one">
+
+                        <i class="fa-solid fa-comments"></i>
+
+                        <span>Better Communication</span>
+
+                    </div>
+
+                    <div class="about-floating about-floating-two">
+
+                        <i class="fa-solid fa-users"></i>
+
+                        <span>Global Connection</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT US ================= -->
+
+        <section class="contact-section section" id="contact">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-tag">GET IN TOUCH</span>
+
+                    <h2>
+                        Let's Start a
+                        <span>Conversation</span>
+                    </h2>
+
+                    <p>
+                        Have questions, suggestions or feedback?
+                        We would love to hear from you.
+                    </p>
+
+                </div>
+
+
+                <div class="contact-card">
+
+                    <form id="contactForm">
+
+                        <div class="form-row">
+
+                            <div class="form-group">
+
+                                <label for="contactName">
+                                    Your Name
+                                </label>
+
+                                <input type="text"
+                                    id="contactName"
+                                    name="name"
+                                    placeholder="Enter your name"
+                                    required
+                                    maxlength="80">
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="contactEmail">
+                                    Email Address
+                                </label>
+
+                                <input type="email"
+                                    id="contactEmail"
+                                    name="email"
+                                    placeholder="Enter your email"
+                                    required
+                                    maxlength="254">
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="contactSubject">
+                                Subject
+                            </label>
+
+                            <input type="text"
+                                id="contactSubject"
+                                name="subject"
+                                placeholder="Enter subject"
+                                required
+                                maxlength="120">
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="contactMessage">
+                                Your Message
+                            </label>
+
+                            <textarea id="contactMessage"
+                                name="message"
+                                placeholder="Write your message here..."
+                                rows="5"
+                                required
+                                maxlength="2000"></textarea>
+
+                        </div>
+
+
+                        <button type="submit" class="btn btn-primary">
+
+                            Send Message
+
+                            <i class="fa-solid fa-paper-plane"></i>
+
+                        </button>
+
+
+                        <div id="contactMessageStatus"
+                            class="message-area"
+                            role="status"
+                            aria-live="polite"></div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CALL TO ACTION ================= -->
+
+        <section class="cta-section">
+
+            <div class="container cta-container">
+
+                <div>
+
+                    <h2>
+                        Ready to Break Language Barriers?
+                    </h2>
+
+                    <p>
+                        Start translating and connect with the world today.
+                    </p>
+
+                </div>
+
+
+                <a href="#translator" class="btn cta-button">
+
+                    Translate Now
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-container">
+
+
+            <div class="footer-brand">
+
+                <a href="#home" class="logo">
+
+                    <span class="logo-icon">
+                        <i class="fa-solid fa-language"></i>
+                    </span>
+
+                    <span>
+                        Lingo<span class="logo-highlight">Bridge</span>
+                    </span>
+
+                </a>
+
+
+                <p>
+                    Every Language, One Connection.
+                    Connecting people through the power of language.
+                </p>
+
+
+                <div class="social-links">
+
+                    <a href="https://www.instagram.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Instagram">
+
+                        <i class="fa-brands fa-instagram"></i>
+
+                    </a>
+
+                    <a href="https://www.linkedin.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="LinkedIn">
+
+                        <i class="fa-brands fa-linkedin-in"></i>
+
+                    </a>
+
+                    <a href="https://github.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="GitHub">
+
+                        <i class="fa-brands fa-github"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Quick Links</h3>
+
+                <a href="#home">Home</a>
+
+                <a href="#translator">Translator</a>
+
+                <a href="#voice">Voice Translator</a>
+
+                <a href="#languages">Languages</a>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Explore</h3>
+
+                <a href="#history">History</a>
+
+                <a href="#favorites">Favorites</a>
+
+                <a href="#about">About Us</a>
+
+                <a href="#contact">Contact Us</a>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Our Mission</h3>
+
+                <p>
+                    Making multilingual communication simple,
+                    accessible and convenient for everyone.
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <div class="container">
+
+                <p>
+                    &copy; <span id="currentYear">2026</span>
+                    LingoBridge. All Rights Reserved.
+                </p>
+
+                <p>
+                    Made with <i class="fa-solid fa-heart"></i>
+                    for better communication.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= TOAST NOTIFICATION ================= -->
+
+    <div class="toast-container" id="toastContainer"
+        aria-live="polite" aria-atomic="true">
+
+    </div>
+
+
+    <!-- Main JavaScript -->
+    <script src="script.js" defer></script>
+
+</body>
+
+</html>
